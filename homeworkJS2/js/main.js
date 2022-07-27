@@ -39,21 +39,24 @@ let   book3={
 let   bk1={
     title: 'Peter Pan',
     pageCount: 150,
-    genre: 'tale'}
-    [{authors: 'J. M. Barrie', age: 118}];
+    genre: 'tale'
+    [{authors: 'J. M. Barrie', age: 118}]
+}
 
 let bk2={
     title: 'Muhammad Ali',
     pageCount: 200,
-    genre: 'biography'}
-    [{authors: 'Muhammad Ali', age: 78}];
+    genre: 'biography'
+    [{authors: 'Muhammad Ali', age: 78}]
+}
 
 
 let bk3={
     title: 'A Game of Thrones',
     pageCount: 250,
-    genre: 'Fantasy'}
-    [{authors: 'George R. R. Martin', age: 73}];
+    genre: 'Fantasy'
+    [{authors: 'George R. R. Martin', age: 73}]
+}
 
 
 
