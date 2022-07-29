@@ -7,19 +7,7 @@ if (x!=0){
 }else{
     console.log('Невірно')
 }
-let x1 = 0;
-if (x1!=0){
-    console.log('Вірно')
-}else{
-    console.log('Невірно')
-}
 
-let x2 = -3;
-if (x2!=0){
-    console.log('Вірно')
-}else{
-    console.log('Невірно')
-}
 
 // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
@@ -78,6 +66,8 @@ let week = prompt('enter number day per week');
         case '7':
             console.log('Sunday');
             break;
+        default:
+        console.log('wrong number day per week');
     }
 
 
@@ -100,5 +90,8 @@ else if(number1=number2){
 // - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 // за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподыбне, тобто кастується до false)
 
-let x = prompt('введіть значення')|| "default";
-console.log(x)
+let q = NaN;
+if(false||!q){
+    console.log('default')
+}
+
