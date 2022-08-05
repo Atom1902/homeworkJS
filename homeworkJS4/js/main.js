@@ -13,7 +13,7 @@
 
 
 // for (let i = 0; i < 10; i++) {
-// 	document.write(`<div>${i+1} Text</div>`);
+// 	document.write(`<div>${i} Text</div>`);
 // }
 
 
@@ -34,7 +34,7 @@
 
 //  let i = 0;
 //     while (i < 20) {
-//         document.write(`<div>${i+1} Text</div>`);
+//         document.write(`<div>${i} Text</div>`);
 //         i++;
 //     }
 
@@ -62,14 +62,14 @@
 // ---------------------РІШЕННЯ--------------------------
 
 
-// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-// 	for (const listOfItem of listOfItems ){
-//     document.write (`
-// 	 <ul>
-//     <li>${listOfItem}</li>
-//     </ul>
-// 	`);
-// }
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+	for (const listOfItem of listOfItems ){
+    document.write (`
+	 <ul>
+    <li>${listOfItem}</li>
+    </ul>
+	`);
+}
 
 
 
