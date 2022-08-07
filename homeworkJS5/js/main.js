@@ -62,11 +62,15 @@
 // lishka('Lorem ipsum, dolor sit amet consectetur adipisicing elit.')
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-
-
-//не знаю як((
-
-
+//
+// function arrayLi (litext, arrlength){
+//     document.write(`<ul>`);
+//     for(let i = 0; i < arrlength; i++){
+//         document.write(`<div><li>litext</li></div>`);
+//     }
+//     document.write(`<ul>`);
+// }
+// arrayLi ('Lorem ipsum', 10)
 
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
