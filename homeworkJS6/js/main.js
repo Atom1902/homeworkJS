@@ -31,42 +31,52 @@
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
-
-// let array = [1,2,3,4];
-// let arrNumber = arr => {
-//     console.log(arr);
-//     for (const arrElement of arr) {
-//         console.log(arrElement);
+    
+//     function  elementOfArray(arr)
+//     {
+//      for(i = 0; i < arr.length; i++)
+//             element = arr[i];
+//         return element;
 //     }
-// }
-// arrNumber(array);
+     
+//    let k = [1, 2, 3, 4, 5, 6, 7];
+//     console.log(k);
+    
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
 
 
-// function pWithText(text) {
+// function pWithText(Text) {
 //         document.write(`<p>${Text}</p>`);
 //     }
 //     pText('Lorem ipsum, dolor sit amet consectetur adipisicing elit.)
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
-// function lishka(text) {
+// function lishka(Text) {
 //     document.write(`
 //     <ul>
-//     <li>${text}</li>
-//     <li>${text}</li>
-//     <li>${text}</li>
+//     <li>${Text}</li>
+//     <li>${Text}</li>
+//     <li>${Text}</li>
 //     </ul>`);
 // }
 // lishka('Lorem ipsum, dolor sit amet consectetur adipisicing elit.')
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+// function lishka(Text, b) {
 
+//   for(i = 0; i < arr.length; i++)
 
-//не знаю як((
+//     document.write(`
+//     <ul>
+//     <li>${Text}</li>
+//     <li>${Text}</li>
+//     <li>${Text}</li>
+//     </ul>`);
 
-
+// }
+// lishka('Lorem ipsum, dolor sit amet consectetur adipisicing elit.')
 
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
@@ -75,16 +85,18 @@
 //     {
 //              for(i = 0; i < arr.length; i++)
 //                     element = arr[i];
-//
+//                 return element;
+//             }
+    
 //     document.write(`
 //     <ul>
 //     <li>${k[0]}</li>
 //     <li>${k[1]}</li>
 //     <li>${k[2]}</li>
 //     </ul>`);
-// }
-// elementOfArray(k)
 
+
+  
    
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
   // let users = [
@@ -93,12 +105,12 @@
   //       {id:22, name: 'kolya', age: 29},
         
   //   ];
-  //   function  objectOfArray(arr) {
-  //   for(let i = 0; i < arr.length; i++){
+  //   function  objectOfArray(arr)
+  //   {
+  //   for(let i = 0; i < arr.length; i++)
                            
   //   document.write(`<div>id:${users[i].id},name:${users[i].name}, age:${users[i].age}</div>`);
    
-  // }
   // }
   // objectOfArray(users)
 
@@ -115,9 +127,9 @@
 //     minimum = item; 
 //   }
 // }
-// return  minimum
+// console.log(minimum); 
 // }
-// console.log(arrayMin(numbers));
+// arrayMin(numbers);
 
 // Простіше методом..
 
@@ -126,12 +138,12 @@
 // let arr = [3,2,5,6];
 // function arrayMin(array){
 // let min = 0;
-// for(let i = 0; i < array.length; i++){
+// for(var i = 0; i < array.length; i++){
 //     min = Math.min (...arr);
 //     }
-// return  min
+// console.log(min);
 // }
-// console.log(arrayMin(arr));
+// arrayMin(arr);
 
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
@@ -141,6 +153,6 @@
 // for(var i = 0; i < array.length; i++){
 //     sum += array[i];
 //     }
-// return  sum
+// console.log(sum);
 // }
-// console.log(arraySum(arr));
+// arraySum(arr);
