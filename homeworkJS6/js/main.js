@@ -39,6 +39,9 @@
 // let str = ' dirty string   ';
 // console.log(str.slice(1, 13));
 
+// let str = ' dirty string   ';
+// console.log(str.trim());
+
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 //     let str = 'Ревуть воли як ясла повні';
 // let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
@@ -59,20 +62,17 @@
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 
-// const sortNums = [11,21,3];
-// sortNums.sort(function (a, b) {
-//     return a - b;
-// });
-// console.log(numbers);
-
-
-
-
-// let sortNums = [11,21,3];
-// sortNums.sort(function (a, b) {
-//     return b - a;
-// });
-// console.log(sortNums);
+// let nums = [11,21,3];
+// const sortNums = (direction, arr)=> {
+//     if (direction === 'ascending') {
+//         nums.sort((a, b) => a - b)
+//     } else {(direction === 'descending')
+//         nums.sort((a, b) => b - a)
+//     }
+//     return nums;
+// }
+// console.log(sortNums('ascending',nums ));
+// console.log(sortNums('dascending',nums ));
 
 
 
@@ -105,50 +105,50 @@
 
 
 // описати колоду карт
-// let cards = [
-//     {value: 'joker'},
-//     {value: 'joker'},
-//     {cardSuit: 'heart',value: '6', color: 'red'},
-//     {cardSuit: 'heart',value: '7', color: 'red'},
-//     {cardSuit: 'heart',value: '8', color: 'red'},
-//     {cardSuit: 'heart',value: '9', color: 'red'},
-//     {cardSuit: 'heart',value: '10', color: 'red'},
-//     {cardSuit: 'heart',value: 'ace', color: 'red'},
-//     {cardSuit: 'heart',value: 'jack', color: 'red'},
-//     {cardSuit: 'heart',value: 'queen', color: 'red'},
-//     {cardSuit: 'heart',value: 'king', color: 'red'},
-//
-//     {cardSuit: 'diamond',value: '6', color: 'red'},
-//     {cardSuit: 'diamond',value: '7', color: 'red'},
-//     {cardSuit: 'diamond',value: '8', color: 'red'},
-//     {cardSuit: 'diamond',value: '9', color: 'red'},
-//     {cardSuit: 'diamond',value: '10', color: 'red'},
-//     {cardSuit: 'diamond',value: 'ace', color: 'red'},
-//     {cardSuit: 'diamond',value: 'jack', color: 'red'},
-//     {cardSuit: 'diamond',value: 'queen', color: 'red'},
-//     {cardSuit: 'diamond',value: 'king', color: 'red'},
-//
-//     {cardSuit: 'spade',value: '6', color: 'black'},
-//     {cardSuit: 'spade',value: '7', color: 'black'},
-//     {cardSuit: 'spade',value: '8', color: 'black'},
-//     {cardSuit: 'spade',value: '9', color: 'black'},
-//     {cardSuit: 'spade',value: '10', color: 'black'},
-//     {cardSuit: 'spade',value: 'ace', color: 'black'},
-//     {cardSuit: 'spade',value: 'jack', color: 'black'},
-//     {cardSuit: 'spade',value: 'queen', color: 'black'},
-//     {cardSuit: 'spade',value: 'king', color: 'black'},
-//
-//     {cardSuit: 'clubs',value: '6', color: 'black'},
-//     {cardSuit: 'clubs',value: '7', color: 'black'},
-//     {cardSuit: 'clubs',value: '8', color: 'black'},
-//     {cardSuit: 'clubs',value: '9', color: 'black'},
-//     {cardSuit: 'clubs',value: '10', color: 'black'},
-//     {cardSuit: 'clubs',value: 'ace', color: 'black'},
-//     {cardSuit: 'clubs',value: 'jack', color: 'black'},
-//     {cardSuit: 'clubs',value: 'queen', color: 'black'},
-//     {cardSuit: 'clubs',value: 'king', color: 'black'}
-//
-// ]
+let cards = [
+    {value: 'joker', color: 'black'},
+    {value: 'joker', color: 'red'},
+    {cardSuit: 'heart',value: '6', color: 'red'},
+    {cardSuit: 'heart',value: '7', color: 'red'},
+    {cardSuit: 'heart',value: '8', color: 'red'},
+    {cardSuit: 'heart',value: '9', color: 'red'},
+    {cardSuit: 'heart',value: '10', color: 'red'},
+    {cardSuit: 'heart',value: 'ace', color: 'red'},
+    {cardSuit: 'heart',value: 'jack', color: 'red'},
+    {cardSuit: 'heart',value: 'queen', color: 'red'},
+    {cardSuit: 'heart',value: 'king', color: 'red'},
+
+    {cardSuit: 'diamond',value: '6', color: 'red'},
+    {cardSuit: 'diamond',value: '7', color: 'red'},
+    {cardSuit: 'diamond',value: '8', color: 'red'},
+    {cardSuit: 'diamond',value: '9', color: 'red'},
+    {cardSuit: 'diamond',value: '10', color: 'red'},
+    {cardSuit: 'diamond',value: 'ace', color: 'red'},
+    {cardSuit: 'diamond',value: 'jack', color: 'red'},
+    {cardSuit: 'diamond',value: 'queen', color: 'red'},
+    {cardSuit: 'diamond',value: 'king', color: 'red'},
+
+    {cardSuit: 'spade',value: '6', color: 'black'},
+    {cardSuit: 'spade',value: '7', color: 'black'},
+    {cardSuit: 'spade',value: '8', color: 'black'},
+    {cardSuit: 'spade',value: '9', color: 'black'},
+    {cardSuit: 'spade',value: '10', color: 'black'},
+    {cardSuit: 'spade',value: 'ace', color: 'black'},
+    {cardSuit: 'spade',value: 'jack', color: 'black'},
+    {cardSuit: 'spade',value: 'queen', color: 'black'},
+    {cardSuit: 'spade',value: 'king', color: 'black'},
+
+    {cardSuit: 'clubs',value: '6', color: 'black'},
+    {cardSuit: 'clubs',value: '7', color: 'black'},
+    {cardSuit: 'clubs',value: '8', color: 'black'},
+    {cardSuit: 'clubs',value: '9', color: 'black'},
+    {cardSuit: 'clubs',value: '10', color: 'black'},
+    {cardSuit: 'clubs',value: 'ace', color: 'black'},
+    {cardSuit: 'clubs',value: 'jack', color: 'black'},
+    {cardSuit: 'clubs',value: 'queen', color: 'black'},
+    {cardSuit: 'clubs',value: 'king', color: 'black'}
+
+]
 
 
 // - знайти піковий туз
@@ -194,14 +194,10 @@
 // - всі трефи від 9 та більше
 
 // function filterByNumber(item) {
-//     if (item.cardSuit == 'clubs' && (item.value > 9)) {
-//         return true
-//     }
-// }
-// let arrByID = cards.filter(filterByNumber)
-// console.log(arrByID)
+// let filter = cards.filter(value => value.cardSuit === 'spade' && value.value > '8' || value.value === '10' && value.color === 'black' || value.value === 'string' &&
+// value.cardSuit === 'spade' || value.value === 'joker' && value.color === 'black');
+// console.log(filter)
 
-// А ЯК ТУТУ ДАТИ ЗРОЗУМІТИ ПРОГРАМІ ЩО ДАМА ТУЗ І ТД ВИЩІ ЗА 9??
 
 //
 // {
@@ -241,3 +237,5 @@
 //
 // },{Spade:[], Heart:[], Clubs:[], Diamonds :[],});
 // console.log(reduce)
+
+
