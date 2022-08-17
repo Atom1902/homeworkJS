@@ -284,19 +284,29 @@
 
 // сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 
-// class  Cinderella {
-//     constructor(name, age, size,printsName, printsAge, printsSizeOfCinderellaShoes ) {
-//         this.name = name;
-//         this.age = age;
-//         this.size = size;
-//         this.prints = {name: printsName, age: printsAge, printsSizeOfCinderellaShoes };
+// class  Prince extends Cinderella {
+//     constructor(name, age, findFootSize) {
+//         super(name,age);
+//         this.findFootSize = findFootSize;
 //     }
 // }
-
-
-
+//
+// let prince = new Prince('vasya', 22 , 37)
+// let find = (array, prince)=>{
+//     for(const item of array){
+//        if ( prince.findFootSize ===item.footSize){
+//            return'My Cinderella is ${item.name}'
+//        }
+//     }
+// }
+//
+//
+// console.log(find(array, prince))
+//
+// let cinderella = array.find(value => prince.findFootSize === value.footSize)
+// console.log(cinderella)
 //     за допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-// let cinderella = cinderellas.find(value => value.size === printsSizeOfCinderellaShoes);
+
 
