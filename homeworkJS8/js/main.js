@@ -1,7 +1,7 @@
-// - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
-// створити пустий масив, наповнити його 10 об'єктами new User(....)
+// - створити функцію конструктор для об'єктів user з полями id, name, surname , email, phone
+// створити пустий масив, наповнити його 10 об'єктами new user(....)
 
-// function User (id, name, surname, email, phone){
+// function user (id, name, surname, email, phone){
 //     this.id = id;
 //     this.name = name;
 //     this.surname = surname;
@@ -9,38 +9,38 @@
 //     this.phone = phone;
 // }
 //
-// let user1 = new User(1,'Vanya', 'Kor', 'Kor@gmail.com','+380999999999');
-// let user2 = new User(2,'Yana', 'Bur', 'Bur@gmail.com','+380999999999');
-// let user3 = new User(3,'Vira', 'Stat', 'Stat@gmail.com','+380999999999');
-// let user4 = new User(4,'Taras', 'Riz', 'Riz@gmail.com','+380999999999');
-// let user5 = new User(5,'Misha', 'Tret', 'Tret@gmail.com','+380999999999');
-// let user6 = new User(6,'Oleg', 'But', 'But@gmail.com','+380999999999');
-// let user7 = new User(7,'Yla', 'Poroh', 'Poroh@gmail.com','+380999999999');
-// let user8 = new User(8,'David', 'Prok', 'Prok@gmail.com','+380999999999');
-// let user9 = new User(9,'David', 'Vok', 'Vok@gmail.com','+380999999999');
-// let user10 = new User(10,'Stepan', 'Doc', 'Doc@gmail.com','+380999999999');
+// let user1 = new user(1,'vanya', 'kor', 'kor@gmail.com','+380999999999');
+// let user2 = new user(2,'yana', 'bur', 'bur@gmail.com','+380999999999');
+// let user3 = new user(3,'vira', 'stat', 'stat@gmail.com','+380999999999');
+// let user4 = new user(4,'taras', 'riz', 'riz@gmail.com','+380999999999');
+// let user5 = new user(5,'misha', 'tret', 'tret@gmail.com','+380999999999');
+// let user6 = new user(6,'oleg', 'but', 'but@gmail.com','+380999999999');
+// let user7 = new user(7,'yla', 'poroh', 'poroh@gmail.com','+380999999999');
+// let user8 = new user(8,'david', 'prok', 'prok@gmail.com','+380999999999');
+// let user9 = new user(9,'david', 'vok', 'vok@gmail.com','+380999999999');
+// let user10 = new user(10,'stepan', 'doc', 'doc@gmail.com','+380999999999');
 //
-// let arrayUsers = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
+// let arrayusers = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
 //
-// console.log(arrayUsers);
+// console.log(arrayusers);
 
 
-// - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
+// - взяти масив з  user[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 
-// let arrayUsers = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
+// let arrayusers = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
 //
-// console.log(arrayUsers.filter(value => value.id % 2 === 0));
+// console.log(arrayusers.filter(value => value.id % 2 === 0));
 
-// - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
+// - взяти масив з  user[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
 
-// let arrayUsers = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
+// let arrayusers = [user1,user2,user3,user4,user5,user6,user7,user8,user9,user10];
 //
-// console.log(arrayUsers.sort((a, b) => a.id - b.id));
+// console.log(arrayusers.sort((a, b) => a.id - b.id));
 
-// - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
-// створити пустий масив, наповнити його 10 об'єктами Client
+// - створити класс для об'єктів client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
+// створити пустий масив, наповнити його 10 об'єктами client
 
-// class Client {
+// class client {
 //     constructor(id, name, surname, email, phone, order) {
 //         this.id = id;
 //         this.name = name;
@@ -51,157 +51,252 @@
 //     }
 // }
 //
-// let client1 = new Client(1,'Vanya', 'Kor', 'Kor@gmail.com','+380999999999', ['iphone x', 'ssd']);
-// let client2 = new Client(2,'Yana', 'Bur', 'Bur@gmail.com','+380999999999', ['Xiaomi Redmi Note 10']);
-// let client3 = new Client(3,'Vira', 'Stat', 'Stat@gmail.com','+380999999999', ['USB Cable micro', 'Headphones Xiaomi', 'Card Reader']);
-// let client4 = new Client(4,'Taras', 'Riz', 'Riz@gmail.com','+380999999999', ['Card Reader', 'USB cable Type C', 'USB cable micro', 'HDMI cable']);
-// let client5 = new Client(5,'Misha', 'Tret', 'Tret@gmail.com','+380999999999', ['Poco M3 Pro']);
-// let client6 = new Client(6,'Oleg', 'But', 'But@gmail.com','+380999999999', ['Card Reader', 'AUX cable']);
-// let client7 = new Client(7,'Yla', 'Poroh', 'Poroh@gmail.com','+380999999999', ['Micro SD card 64gb']);
-// let client8 = new Client(8,'David', 'Prok', 'Prok@gmail.com','+380999999999', ['Battery Xiaomi Redmi 4x', 'Screen protector for Redmi 4x']);
-// let client9 = new Client(9,'David', 'Vok', 'Vok@gmail.com','+380999999999', ['Speaker Asus']);
-// let client10 = new Client(10,'Stepan', 'Doc', 'Doc@gmail.com','+380999999999', ['Xiaomi Redmi 5a, Display Xiaomi Redmi 5a', 'Micro SD card 128gb', 'USB cable micro']);
+// let client1 = new client(1,'vanya', 'kor', 'kor@gmail.com','+380999999999', ['iphone x', 'ssd']);
+// let client2 = new client(2,'yana', 'bur', 'bur@gmail.com','+380999999999', ['xiaomi redmi note 10']);
+// let client3 = new client(3,'vira', 'stat', 'stat@gmail.com','+380999999999', ['usb cable micro', 'headphones xiaomi', 'card reader']);
+// let client4 = new client(4,'taras', 'riz', 'riz@gmail.com','+380999999999', ['card reader', 'usb cable type c', 'usb cable micro', 'hdmi cable']);
+// let client5 = new client(5,'misha', 'tret', 'tret@gmail.com','+380999999999', ['poco m3 pro']);
+// let client6 = new client(6,'oleg', 'but', 'but@gmail.com','+380999999999', ['card reader', 'aux cable']);
+// let client7 = new client(7,'yla', 'poroh', 'poroh@gmail.com','+380999999999', ['micro sd card 64gb']);
+// let client8 = new client(8,'david', 'prok', 'prok@gmail.com','+380999999999', ['battery xiaomi redmi 4x', 'screen protector for redmi 4x']);
+// let client9 = new client(9,'david', 'vok', 'vok@gmail.com','+380999999999', ['speaker asus']);
+// let client10 = new client(10,'stepan', 'doc', 'doc@gmail.com','+380999999999', ['xiaomi redmi 5a, display xiaomi redmi 5a', 'micro sd card 128gb', 'usb cable micro']);
 //
-// let clientsArray = [client1, client2, client3, client4, client5, client6, client7, client8, client9, client10]
-// console.log(clientsArray);
+// let clientsarray = [client1, client2, client3, client4, client5, client6, client7, client8, client9, client10]
+// console.log(clientsarray);
 
-// - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
+// - взяти масив (client [] з попереднього завдання).відсортувати його по кількості товарів в полі order по зростанню. (sort)
 
-// console.log(clientsArray.sort((a, b) => a.order.length - b.order.length));
+// console.log(clientsarray.sort((a, b) => a.order.length - b.order.length));
 
-// - Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
+// - створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
 
-// function Car(mobel, producer, year, maxSpeed, value) {
+// function Car(model, prod, year, maxSp, value) {
 //     this.model = model;
-//     this.produser = producer;
+//     this.prod = prod;
 //     this.year = year;
-//     this.maxSpeed = maxSpeed;
+//     this.maxSp = maxSp;
 //     this.value = value;
-
-
 //     this.drive = function () {
-//         console.log(`їдемо зі швидкістю ${this.maxSpeed}` на годину);
+//
+//         console.log(`їдемо зі швидкістю ${this.maxSp} на годину`);
 //     };
+// }
+//  let car = new Car('tesla100d', 'tesla', '2018', '200km')
+// console.log(car);
+// car.drive();
+
 
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 
-//     this.info = function () {
-//         console.log(`модель = ${this.model},виробник = ${this.produser}`);
-//     };
-
-// -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
-
-//     this.maxSpeed = function (newSpeed) {
-//         this.maxSpeed = this.maxSpeed + newSpeed;
-//     };
-
-// -- changeYear (newValue) - змінює рік випуску на значення newValue
-
-//     this.value = function (newValue) {
-//         this.value = newValue;
-//     }
-
-// -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-
-// function Car(mobel, producer, year, maxSpeed, value, driverName, driverAge ) {
+// function Car(model, prod, year, maxSp, value) {
 //     this.model = model;
-//     this.produser = producer;
+//     this.prod = prod;
 //     this.year = year;
-//     this.maxSpeed = maxSpeed;
+//     this.maxSp = maxSp;
+//     this.value = value;
+//     this.info  = function () {
+//
+//         console.log(`Model ${this.model}, Prod ${this.prod}, Year ${this.year}, MaxSp ${this.maxSp}, Value ${this.value}`);
+//     };
+// }
+// let car = new Car('tesla100d', 'tesla', '2018', '200km', 'none')
+// console.log(car);
+// car.info();
+
+
+
+// -- increasemaxspeed (newspeed) - яка підвищує значення максимальної швидкості на значення newspeed
+
+
+// function Car(model, prod, year, maxSp, value) {
+//     this.model = model;
+//     this.prod = prod;
+//     this.year = year;
+//     this.value = value;
+//     this.maxSp = function (newSpeed) {
+//         this.maxSp = this.maxSp + newSpeed;
+//     };
+// }
+// let car = new Car('tesla100d', 'tesla', '2018', '200km', 'none')
+// console.log(car);
+// car.maxSp();
+
+// -- changeyear (newvalue) - змінює рік випуску на значення newvalue
+
+
+// function Car(model, prod, year, maxSp, value) {
+//     this.model = model;
+//     this.prod = prod;
+//     this.value = value;
+//     this.maxSp = maxSp;
+//     this.year = function (newValue) {
+//                 this.year = newValue;
+//     };
+// }
+// let car = new Car('tesla100d', 'tesla', '2018', '200km', 'none')
+// console.log(car);
+// car.year();
+
+
+// -- adddriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
+
+// function car(model, producer, year, maxSp, value, driverName, driverAge ) {
+//     this.model = model;
+//     this.prod = prod;
+//     this.year = year;
+//     this.maxSp = maxSp;
 //     this.value = value;
 //     this.driver = {name: driverName, age: driverAge};
 // }
+// let car = new Car('tesla100d', 'tesla', '2018', '200km', 'none')
+// console.log(car);
+// car.driver();
 
 
 
 
-
-// - (Те саме, тільки через клас)
-// Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
-
-// class CarClass {
-//     constructor(model, producer, year, maxSpeed, volume) {
-//         this.model = model;
-//         this.producer = producer;
-//         this.year = year;
-//         this.maxSpeed = maxSpeed;
-//         this.volume = volume;
-//     };
-//
-// }
-
+// - (те саме, тільки через клас)
+// створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
+// class CarClass{
+//     constructor(model, prod, year, maxSp, value){
+//         this.model = model;
+//         this.prod = prod;
+//         this.year = year;
+//         this.maxSp = maxSp;
+//         this.value = value;
+//         this.drive = function () {
+//
+//             console.log(`їдемо зі швидкістю ${this.maxSp} на годину`);
+//         };
+//     }
+// }
+//  let carClass = new CarClass('tesla100d', 'tesla', '2018', '200km', 'none');
+//
+// console.log(carClass);
+//     carClass.drive();
 
-// drive () {
-//     console.log(`їдемо зі швидкістю ${this.maxSpeed}` на годину);
-// };
 
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 
-// info () {
-//     console.log(`модель = ${this.model},виробник = ${this.produser}`);
-// };
 
-// -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
-
-// maxSpeed () {
-//     this.maxSpeed = this.maxSpeed + newSpeed;
-// };
-
-// -- changeYear (newValue) - змінює рік випуску на значення newValue
-
-// value () {
-//     this.value = newValue;
-// };
-// year () {
-//     this.year = newValue;
-// }
-
-// -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-
-// class CarClass {
-//     constructor(model, producer, year, maxSpeed, volume, driverName, driverAge ) {
+// class CarClass{
+//     constructor(model, prod, year, maxSp, value){
 //         this.model = model;
-//         this.producer = producer;
+//         this.prod = prod;
 //         this.year = year;
-//         this.maxSpeed = maxSpeed;
-//         this.volume = volume;
+//         this.maxSp = maxSp;
+//         this.value = value;
+//         this.info  = function () {
+//
+//             console.log(`Model ${this.model}, Prod ${this.prod}, Year ${this.year}, MaxSp ${this.maxSp}, Value ${this.value}`);
+//         };
+//     }
+// }
+//  let carClass = new CarClass('tesla100d', 'tesla', '2018', '200km', 'none');
+//
+// console.log(carClass);
+//     carClass.info();
+
+
+
+// -- increasemaxspeed (newspeed) - яка підвищує значення максимальної швидкості на значення newspeed
+
+// class CarClass{
+//     constructor(model, prod, year, maxSp, value){
+//         this.model = model;
+//         this.prod = prod;
+//         this.year = year;
+//         this.value = value;
+//         this.maxSp  = function (newSpeed) {
+//
+//             this.maxSp = this.maxSp + newSpeed;
+//         };
+//     }
+// }
+//  let carClass = new CarClass('tesla100d', 'tesla', '2018', '200km', 'none');
+//
+// console.log(carClass);
+//     carClass.maxSp();
+
+
+// -- changeyear (newvalue) - змінює рік випуску на значення newvalue
+
+// class CarClass{
+//     constructor(model, prod, year, maxSp, value){
+//         this.model = model;
+//         this.prod = prod;
+//         this.maxSp = maxSp;
+//         this.value = value;
+//         this.year  = function (newValue) {
+//
+//             this.year = newValue;
+//         };
+//     }
+// }
+//  let carClass = new CarClass('tesla100d', 'tesla', '2018', '200km', 'none');
+//
+// console.log(carClass);
+//     carClass.year();
+
+
+// -- adddriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
+
+// class CarClass{
+//     constructor(model, prod, year, maxSp, value, driverName, driverAge ){
+//         this.model = model;
+//         this.prod = prod;
+//         this.maxSp = maxSp;
+//         this.value = value;
+//         this.year  = year
 //         this.driver = {name: driverName, age: driverAge};
 //     };
 //
 // }
+//  let carClass = new CarClass('tesla100d', 'tesla', '2018', '200km', 'none');
+//
+// console.log(carClass);
+//     carClass.driver();
 
-// -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 
+// -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. створити масив з 10 попелюшок.
 // class  Cinderella {
 //     constructor(name, age, size) {
 //         this.name = name;
 //         this.age = age;
-//         this.size = size;
+//         this.shoeSize = shoeSize;
 //     }
 // }
-// let cinderellas = [
-//     new Cinderella('cinderella1', 23,38 ),
-//     new Cinderella('cinderella2', 32,40 ),
-//     new Cinderella('cinderella3', 21,37 ),
-//     new Cinderella('cinderella4', 28,39 ),
-//     new Cinderella('cinderella5', 27,40 ),
-//     new Cinderella('cinderella6', 26,37 ),
-//     new Cinderella('cinderella7', 24,36 ),
-//     new Cinderella('cinderella8', 30,40 ),
-//     new Cinderella('cinderella9', 33,39 ),
-//     new Cinderella('cinderella10', 31,40 )
 //
-// ]
+// let Cinderella1 = new Cinderella('Anna', '23', '38' );
+// let Cinderella2 = new Cinderella(Bella', '32','40');
+// let Cinderella3 = new Cinderella('Lida', '21','37');
+// let Cinderella4 = new Cinderella('Rita', '28','39' );
+// let Cinderella5 = new Cinderella('Maria', '27','40' );
+// let Cinderella6 = new cCinderella('Kara', '26','37' );
+// let Cinderella7 = new Cinderella('Vita', '24','36' );
+// let Cinderella8 = new Cinderella('Kira', '30','40');
+// let Cinderella9 = new Cinderella('Yla', '33','39' );
+// let Cinderella10 = new Cinderella('Dasha', '31','40');
+//
 
-// Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+// сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 
-// let prince = new Prince('prince', 33, 43);
+// class  Cinderella {
+//     constructor(name, age, size,printsName, printsAge, printsSizeOfCinderellaShoes ) {
+//         this.name = name;
+//         this.age = age;
+//         this.size = size;
+//         this.prints = {name: printsName, age: printsAge, printsSizeOfCinderellaShoes };
+//     }
+// }
 
 
 
-//     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
-//     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+//     за допомоги циклу знайти яка попелюшка повинна бути з принцом.
+//     додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-// let cinderella = cinderellas.find(value => value.size === prince.shoe);
+// let cinderella = cinderellas.find(value => value.size === printsSizeOfCinderellaShoes);
+
