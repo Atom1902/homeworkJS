@@ -295,7 +295,7 @@
 // let find = (array, prince)=>{
 //     for(const item of array){
 //        if ( prince.findFootSize ===item.footSize){
-//            return'My Cinderella is ${item.name}'
+//            return 'My Cinderella is ${item.name}'
 //        }
 //     }
 // }
