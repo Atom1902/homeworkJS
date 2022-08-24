@@ -31,6 +31,7 @@ wrapper.append(postBlockDiv);
 const userId = document.createElement('h2');
 userId.innerText = `User id: ${post.userId}`;
 
+
 const postTitle = document.createElement('h3');
 postTitle.innerText = `Title: ${post.title}`;
 

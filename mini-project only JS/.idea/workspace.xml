@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f587c90c-a13a-4025-ace7-2b9f7cb3c2f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mini-project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/.idea/mini-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/js/detailsPost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/js/detailsUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/post-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project/user-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/detailsPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/detailsPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/detailsUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/detailsUser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +13,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DnhcKyUVz418S7S3pwD67Uk79t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661340870323</updated>
       <workItem from="1661340874180" duration="593000" />
+      <workItem from="1661343951808" duration="91000" />
     </task>
     <servers />
   </component>

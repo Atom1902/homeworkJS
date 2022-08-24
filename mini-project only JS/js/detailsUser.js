@@ -137,7 +137,7 @@ rightUserBlock.append(userCompany, userCompanyBlock);
 
 const buttonUserDetails = document.createElement('button');
 buttonUserDetails.style.height = '35px';
-buttonUserDetails.style.width = '92%';
+buttonUserDetails.style.width = '90%';
 buttonUserDetails.style.backgroundColor = '#ffffff';
 buttonUserDetails.style.borderRadius= '5px';
 buttonUserDetails.style.cursor = 'pointer';
